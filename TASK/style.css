@@ -1,0 +1,46 @@
+body{
+    background-color:#f3f3f3;
+}
+    h1{
+        color:blue;        
+        }
+        section p{
+            line-height: 1;
+        }
+    
+    #summary{
+        font-style: italic;
+  }
+    
+   input[placeholder="Password"]
+   {
+    border:2px solid red;
+   }
+   
+   div~p{
+    font-weight: bold;
+   }
+   div+p{
+    color: green;
+  }
+  p+.box{
+    color: orange;
+  }
+  ul>li{
+    list-style-type: square;
+  }
+  ul>li:first-child{
+    content: " ";
+    color: black;
+  }
+    ul li:first-child{  
+    text-decoration: underline;
+    color: blue;
+
+  }
+ .quote::before{
+    content: " →";
+  }
+  .important{
+    border: 2px solid;
+  }

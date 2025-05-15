@@ -1,0 +1,69 @@
+/* div[class^="card"] {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 18px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 15px;
+}
+
+div[class^="card"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+Specific Card Colors */
+/* .card1 {
+    background-color: #4CAF50;
+}
+
+.card2 {
+    background-color: #2196F3;
+}
+
+.card3 {
+    background-color: #FF9800; */
+
+
+
+     
+    .accordion {
+      width: 300px;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .accordion input {
+      display: none;
+    }
+
+    .accordion label {
+      display: block;
+      padding: 10px;
+      background: #333;
+      color: white;
+      cursor: pointer;
+    }
+
+    .accordion .content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+      background: #f9f9f9;
+      padding: 0 10px;
+    }
+
+    /* Expand content when checkbox is checked */
+    .accordion input:checked + label + .content {
+      max-height: 100px;
+      padding: 10px;
+    }
+  
