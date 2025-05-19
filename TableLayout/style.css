@@ -1,1 +1,28 @@
-<
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    gap: 0px 60px;
+    
+    
+
+}
+.navbar{
+    display: flex;
+  gap: 0px 60px;
+    margin-right: 100px;
+
+}
+.navItems{
+    margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}

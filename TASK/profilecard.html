@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>    
+    body { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0; 
+      background-color: #f2f5f9; 
+      font-family: Arial, sans-serif;
+    } 
+    .profile-card {             
+      background-color: #ffffff; 
+      border-radius: 12px;  
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center; 
+      width: 350px;   
+      padding: 20px;
+      transition: transform 0.3s;      
+    }                             
+    .profile-image img { 
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;   
+      object-fit: cover; 
+      margin-bottom: 15px;  
+    }            
+    h2 {      
+      margin: 10px 0 5px;  
+      font-size: 22px;     
+      color: #333;       
+    }                          
+    .designation {            
+      color: #888;        
+      font-size: 14px;     
+      margin-bottom: 15px;    
+    }  
+    .profile-stats {
+      display: flex; 
+      justify-content: space-around; 
+      margin-bottom: 15px; 
+    } 
+    .profile-stats div { 
+      text-align: center; 
+    } 
+    .profile-stats h3 { 
+      margin: 0;
+      color: #333; 
+      font-size: 20px;
+    } 
+    .profile-stats p {
+      margin: 2px 0;
+      color: #777;
+      font-size: 14px;
+    } 
+    .description {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+      padding: 0 10px;
+    } 
+    .social-icons { 
+      display: flex;
+      justify-content: center; 
+      gap: 15px; 
+      margin-bottom: 15px; 
+    } 
+    .social-icons a {
+      color: #444;
+      font-size: 20px;
+      transition: transform 0.2s, color 0.2s;
+    } 
+    .social-icons a:hover { 
+      transform: scale(1.2);
+      color: #0077b5; /* LinkedIn blue */  
+    } 
+    .view-profile { 
+      background-color: #4CAF50; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      padding: 10px 20px; 
+      cursor: pointer; 
+      transition: background-color 0.3s; 
+      font-size: 16px;
+    } 
+    .view-profile:hover {
+      background-color: #75e8f5;
+      color: black;
+    }
+  </style>
+</head>
+<body> 
+  <div class="profile-card">
+    <div class="profile-image">
+      <img src="/ASSCETS/WhatsApp Image 2025-05-17 at 10.50.24_e4d8c36e.jpg" alt="Profile Picture">
+    </div>
+    <h2>AKULA HARINI</h2>
+    <p class="designation">Full Stack Developer</p>
+    <div class="profile-stats">
+      <div>
+        <h3>3</h3>
+        <p>Projects</p>
+      </div>
+      <div>
+        <h3>159</h3>
+        <p>Following</p>
+      </div>
+      <div>
+        <h3>171</h3>
+        <p>Followers</p>
+      </div>
+    </div>
+    <p class="description">
+      As a recent graduate with a strong foundation in HTML/CSS, I thrive on solving problems and
+      continuously learning new technologies to enhance my craft.
+    </p>
+    <div class="social-icons">
+      <a href="mailto:hariniakula320@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/akulaharini12" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/akulaharini12" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <button class="view-profile">View Profile</button>
+  </div>
+</body>
+</html>
