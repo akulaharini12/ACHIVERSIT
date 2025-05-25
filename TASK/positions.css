@@ -1,4 +1,4 @@
-.div {
+div {
     height :110px;
     width :110px;
 }
@@ -12,10 +12,10 @@
     position: static;
     left:200px;
 }
-.relative{
-    background-color: aqua;
-    position: relative;
-    left: 30px;
+.relative{ 
+    background-color: aqua; 
+    position: relative; 
+    left: 30px; 
 }
 .absolute{
     background-color: yellow;
@@ -27,12 +27,13 @@
 .fixed{
     background-color: brown;
     position: fixed;
-    top: 900px;
-    left: 300px;
+    padding: 10px;
+    bottom: 90px;
+    left: 30px;
 }
 .sticky{
     position: sticky;
     top: 5px;
     background-color: chartreuse;
-    padding: 50px;
+    padding: 10px;
 } 

@@ -55,7 +55,7 @@ body {
   transform-origin: bottom center;
 }
 
-.spoke1 { transform: rotate(0deg); }
+.spoke1 { transform: rotate(0deg);  }
 .spoke2 { transform: rotate(15deg); }
 .spoke3 { transform: rotate(30deg); }
 .spoke4 { transform: rotate(45deg); }
@@ -79,3 +79,12 @@ body {
 .spoke22 { transform: rotate(315deg); }
 .spoke23 { transform: rotate(330deg); }
 .spoke24 { transform: rotate(345deg); }
+
+
+.stick{
+  height:360px;
+  width: 10px;
+  border: black;
+  background-color: brown;
+
+}

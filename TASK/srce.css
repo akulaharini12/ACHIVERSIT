@@ -1,0 +1,58 @@
+.sqr{
+    height: 800px;
+    width: 800px;
+    background-color: blue;
+    color: white;
+    border-left: 2px solid black;
+    border-top: 2px dotted brown;
+    border-right: 2px dashed yellowgreen;
+    border-bottom: 2px double pink;
+}
+.sqr:hover{
+    background-color: white;
+    color: blue;
+}
+.rec{
+    height: 700px;
+    width: 600px;
+    background-color: lightgray;
+    color: palevioletred;
+    border-left: 2px solid black;
+    border-top: 2px dotted brown;
+    border-right: 2px dashed yellowgreen;
+    border-bottom: 2px double pink;
+}
+.rec:hover{
+    background-color: violet;
+    color: aqua;
+}
+.ecl{
+    height: 700px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: teal;
+    color: palevioletred;
+    border-left: 2px solid black;
+    border-top: 2px dotted brown;
+    border-right: 2px dashed yellowgreen;
+    border-bottom: 2px double pink;
+}
+.ecl:hover{
+    background-color: violet;
+    color: aqua;
+}
+.cir{
+    height: 700px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: aqua;
+    color: palevioletred;
+    border-left: 2px solid black;
+    border-top: 2px dotted brown;
+    border-right: 2px dashed yellowgreen;
+    border-bottom: 2px double pink;
+}
+.cir:hover{
+    background-color:peachpuff;
+    color: magenta;
+}
