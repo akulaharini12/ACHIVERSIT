@@ -16,6 +16,10 @@ header{
     justify-content: space-between;
     
 }
+h1{
+font-family: 'Times New Roman', Times, serif;
+color: rgb(128, 0, 36);
+}
 nav ul {
     display: flex;
     gap: 20px;
@@ -118,9 +122,10 @@ input{
 }
 
 button:hover{
-    width: 200px;
-    height: 100px;
-    transform: skew();
+    /* width: 200px;
+    height: 100px; */
+    /* transform: skew(); */
     background-color: azure;
      color:black;
+     transform: scale(1);
 }
