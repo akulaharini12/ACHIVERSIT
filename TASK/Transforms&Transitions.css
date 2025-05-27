@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    font-size: 30px;
+    font-weight: bolder;
+    transition-property: "height";
+    transition-duration: 2s;
+   
+}
+.container:hover{
+    height: 300px;
+    width: 300px;
+    
+} 
