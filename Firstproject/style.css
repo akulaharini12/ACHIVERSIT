@@ -1,0 +1,178 @@
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #0d0d0d;
+      color: white;
+    }
+
+    .container {
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .icons i {
+      margin-left: 1rem;
+      cursor: pointer;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem 2rem;
+      background-color: #101010;
+    }
+
+    .hero-text h3 {
+      color: #ccc;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-text h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .price {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: red;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .hero-img {
+      max-width: 200px;
+    }
+
+    .featured, .top-products {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .product-card {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .product-card .name {
+      margin: 0.5rem 0;
+    }
+
+    .filter {
+      margin: 1rem 0;
+    }
+
+    .filter .btn {
+      margin: 0 0.3rem;
+    }
+
+    .advantages {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .advantage-list {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .advantage {
+      padding: 1rem;
+      width: 150px;
+    }
+
+    .advantage i {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer {
+      background-color: #0d0d0d;
+      padding: 2rem;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+
+    .subscribe {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .subscribe input {
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      width: 200px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1rem;
+    }
+
+    .footer-columns h5 {
+      color: white;
+      margin-bottom: 0.5rem;
+    }
+
+    .socials {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .socials i {
+      margin: 0 0.5rem;
+      cursor: pointer;
+    }
+
+    .copyright {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.8rem;
+    }
+  </style>
